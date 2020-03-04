@@ -144,10 +144,10 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/danielmartin0"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-       url: "https://github.com/danielmartin0"
+      # url: "https://github.com/danielmartin0"
       # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
