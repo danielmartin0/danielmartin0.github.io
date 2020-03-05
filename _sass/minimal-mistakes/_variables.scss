@@ -135,8 +135,8 @@ $base0f: #ff5370 !default;
 $small: 600px !default; /*600px*/
 $medium: 694px !default; /*768px*/
 $medium-wide: 732px !default; /*900px*/
-$large: 800px !default; /*1024px*/
-$x-large: 1280px !default; /*1280px*/
+$large: 768px !default; /*1024px*/
+$x-large: 1180px !default; /*1280px*/
 $max-width: $x-large !default; /*$x-large*/
 
 /*
@@ -145,7 +145,7 @@ $max-width: $x-large !default; /*$x-large*/
 
 $right-sidebar-width-narrow: 200px !default; /*200px*/
 $right-sidebar-width: 200px !default; /*300px*/
-$right-sidebar-width-wide: 400px !default; /*400px*/
+$right-sidebar-width-wide: 300px !default; /*400px*/
 
 /*
    Other
