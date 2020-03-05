@@ -93,7 +93,7 @@
   }
 
   @include breakpoint($x-large) {
-    width: $right-sidebar-width * 3;
+    width: $right-sidebar-width;
     margin-right: -1 * $right-sidebar-width;
   }
 }
