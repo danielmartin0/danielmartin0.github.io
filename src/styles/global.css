@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fg: #000;
+  --bg: #fff;
+}
+
+@layer base {
+  body {
+    @apply bg-white font-serif text-body text-black;
+  }
+
+  a {
+    @apply text-black underline;
+  }
+
+  a:hover {
+    @apply bg-black text-white no-underline;
+  }
+}

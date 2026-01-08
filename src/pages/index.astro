@@ -1,0 +1,47 @@
+---
+import '../styles/global.css'
+import Section from '../components/Section.astro'
+import ProjectRow from '../components/ProjectRow.astro'
+import site from '../data/site'
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{site.name}</title>
+  </head>
+  <body>
+    <main
+      class="mx-auto max-w-page px-6 py-12 sm:px-14 sm:pb-20 sm:pt-16"
+    >
+      <h1 class="mb-6 text-h1 font-bold tracking-[-0.01em]">{site.name}</h1>
+
+      {site.intro.map((para) => <p class="mb-3.5">{para}</p>)}
+
+      {
+        site.sections.map((section) => (
+          <Section title={section.title}>
+            {section.items.map((item) => (
+              <ProjectRow {...item} />
+            ))}
+          </Section>
+        ))
+      }
+
+      <Section title="Contact">
+        <p class="mb-3.5">
+          {
+            site.contact.map((c, i) => (
+              <>
+                {i > 0 && <span> &middot; </span>}
+                <a href={c.href}>{c.label}</a>
+              </>
+            ))
+          }
+        </p>
+      </Section>
+    </main>
+  </body>
+</html>
