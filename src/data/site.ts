@@ -34,7 +34,7 @@ const site: Site = {
   ],
   contact: [
     { label: 'Email', href: 'mailto:contact@danielgmartin.com' },
-    { label: 'X', href: 'https://https://x.com/DanGMartin1' },
+    { label: 'X', href: 'https://x.com/DanGMartin1' },
     { label: 'GitHub', href: 'https://github.com/danielmartin0' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/daniel-g-martin/' },
   ],
