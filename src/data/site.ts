@@ -7,6 +7,8 @@ export interface ProjectItem {
   caption: string
   /** Optional real image path. When set, replaces the striped placeholder. */
   src?: string
+  /** How the thumbnail image fits its box. Defaults to 'cover'. */
+  fit?: 'cover' | 'contain'
 }
 
 export interface SiteSection {
@@ -91,6 +93,7 @@ const site: Site = {
           href: 'https://foundrygg.com/',
           thumb: 'foundry',
           src: '/thumbnails/foundry.png',
+          fit: 'contain',
           caption:
             'I write, edit & mentor at a community dedicated to Factorio modding. For example, see this article on <a href="https://www.foundrygg.com/blog/terrain">2D terrain generation</a>.',
         },
@@ -135,6 +138,7 @@ const site: Site = {
           href: '/slides/Diff,%20Weyl%20and%20Conf.pdf',
           thumb: 'diff-weyl-conf',
           src: '/thumbnails/PDF_file_icon.svg',
+          fit: 'contain',
           caption:
             'A long review talk on diffeomorphisms, Weyl transformations, conformal transformations.',
         },
@@ -143,6 +147,7 @@ const site: Site = {
           href: '/slides/Advanced%20Mathematica%20for%20Theoretical%20Physics.nb',
           thumb: 'mathematica',
           src: '/thumbnails/Mathematica_Logo.svg',
+          fit: 'contain',
           caption:
             'Notebook slides for a talk on Mathematica.',
         },

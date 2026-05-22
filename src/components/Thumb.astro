@@ -3,11 +3,13 @@ interface Props {
   href: string
   label: string
   src: string
+  fit?: 'cover' | 'contain'
 }
 
-const { href, label, src } = Astro.props
+const { href, label, src, fit = 'cover' } = Astro.props
+const fitClass = fit === 'contain' ? 'object-contain' : 'object-cover'
 ---
 
 <a href={href} aria-label={label} class="block shrink-0 leading-none">
-  <img src={src} alt="" class="block h-16 w-[4.5rem] object-cover" />
+  <img src={src} alt="" class={`block h-16 w-16 ${fitClass}`} />
 </a>
