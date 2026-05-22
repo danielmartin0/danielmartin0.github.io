@@ -136,7 +136,7 @@ const site: Site = {
           thumb: 'diff-weyl-conf',
           src: '/thumbnails/PDF_file_icon.svg',
           caption:
-            'A 2018 review talk on diffeomorphisms, Weyl transformations, conformal transformations.',
+            'A long review talk on diffeomorphisms, Weyl transformations, conformal transformations.',
         },
         {
           title: 'Advanced Mathematica for Theoretical Physics (.nb)',
@@ -144,7 +144,7 @@ const site: Site = {
           thumb: 'mathematica',
           src: '/thumbnails/Mathematica_Logo.svg',
           caption:
-            'Notebook slides for a 2018 talk on Mathematica.',
+            'Notebook slides for a talk on Mathematica.',
         },
         {
           title: 'SpeakLaTeX',
