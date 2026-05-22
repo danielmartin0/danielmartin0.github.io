@@ -4,12 +4,12 @@ import type { ProjectItem } from '../data/site'
 
 type Props = ProjectItem
 
-const { title, href, caption, src } = Astro.props
+const { title, href, caption, src, fit } = Astro.props
 ---
 
 <div class="mb-3.5 flex items-start gap-3.5">
   <div class="min-w-0 flex-1">
     <a href={href}>{title}</a> &mdash; <Fragment set:html={caption} />
   </div>
-  {src && <Thumb href={href} label={title} src={src} />}
+  {src && <Thumb href={href} label={title} src={src} fit={fit} />}
 </div>
