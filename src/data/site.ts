@@ -124,7 +124,7 @@ const site: Site = {
           href: 'https://www.youtube.com/watch?v=IBc1oVXen-o',
           thumb: 'podcasts',
           src: '/thumbnails/robin.png',
-          caption: 'David Deutsch, Robin Hanson and I discuss <a href="https://www.youtube.com/watch?v=IBc1oVXen-o">Predicting the future</a> and the <a href="https://www.youtube.com/watch?v=7zUQBs-ju6w">Evolution of culture</a>.',
+          caption: 'Robin Hanson, David Deutsch and I discuss <a href="https://www.youtube.com/watch?v=IBc1oVXen-o">Predicting the future</a> and the <a href="https://www.youtube.com/watch?v=7zUQBs-ju6w">Evolution of culture</a>.',
         },
       ],
     },
