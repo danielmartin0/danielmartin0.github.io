@@ -117,8 +117,7 @@ const site: Site = {
           thumb: 'conjecturecon',
           src: '/thumbnails/cceurope.png',
           caption:
-            'A public conference on critical rationalism.',
-            // 'A public conference on critical rationalism. You can watch my interview and Q&A with David Deutsch here.',
+            'I organize a public conference for critical rationalism. You can watch my <a href="https://youtube.com/watch?v=YGeNzpZ5Va4">interview with David Deutsch</a>.',
         },
         {
           title: 'Podcast interviews',
